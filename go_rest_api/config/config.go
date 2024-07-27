@@ -2,10 +2,10 @@ package config
 import(
 	"fmt"
 	"os"
-	"github.com/joho/godotenv" //env dosyasını yüklemek için kullanılan paket 
+	"github.com/joho/godotenv" 
 )
 
-// config den env değerini almak için func ı yapılandırıyoruz
+
 func Config(key string) string{
 	 //load .env file
 	 err :=godotenv.Load(".env")
