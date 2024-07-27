@@ -27,7 +27,7 @@ func CreateUser(c *fiber.Ctx) error {
 	return c.Status(201).JSON(fiber.Map{"status": "success", "message": "User has created", "data": user})
 }
 
-//GET ALL USEet
+//GET ALL USERS
 
 func GetAllUsers(c *fiber.Ctx) error {
 	db := database.DB.Db
