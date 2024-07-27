@@ -15,10 +15,10 @@ import (
 
 // Database instance
 type Dbinstance struct {
-	Db *gorm.DB // GORM veritabanı nesnesi
+	Db *gorm.DB 
 }
 
-var DB Dbinstance // Veritabanı örneği
+var DB Dbinstance 
 
 // Connect function database
 func Connect() {
